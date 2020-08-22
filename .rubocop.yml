@@ -1,0 +1,20 @@
+AllCops:
+  Exclude:
+    - 'spec/**/*'
+    - 'config/**/*'
+    - 'db/migrate/**/*'
+    - 'db/schema.rb'
+    - 'bin/**/*'
+    - 'Gemfile'
+
+  TargetRubyVersion: 2.4
+
+Metrics/LineLength:
+  Max: 120
+  Enabled: false
+
+FrozenStringLiteralComment:
+  Enabled: false
+
+Documentation:
+  Enabled: false
